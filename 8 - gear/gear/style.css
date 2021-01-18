@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.gear {
+  width: 110px;
+  height: 110px;
+  background-color: #5dc59d;
+  border-radius: 50%;
+}
+
+.gear-inner {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bar {
+  width: 170px;
+  height: 40px;
+  background-color: #5dc59d;
+  border-radius: 7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bar:nth-child(2) {
+  transform: translate(-50%,-50%) rotate(60deg);
+}
+
+.bar:nth-child(3) {
+  transform: translate(-50%,-50%) rotate(-60deg);
+}

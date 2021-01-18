@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DE433F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    position: relative;
+    width: 215px;
+    height: 405px;
+    background-color: green;
+}
+
+.forehead {
+    position: absolute;
+    width: 170px;
+    height: 200px;
+    background-color: #FED90F;
+    border: 1px solid #000;
+    top: 10px;
+    border-radius: 60%/50%;
+    transform: rotate(-18deg);
+}
+
+.hair1 {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    border-top: 2px solid #000;
+    top: 15px;
+    border-radius: 50%;
+    transform: rotate(-40deg);
+}
+
+.hair2 {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    border-top: 2px solid #000;
+    left: 10px;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+}
+
+.r-eye {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 50%;
+    left: 120px;
+    top: 110px;
+}
+
+.pupil-right {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: #000;
+    border-radius: 50%;
+    left: 35px;
+    top: 40px;
+}
+
+.l-eye {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 50%;
+    left: 60px;
+    top: 115px;
+}
+
+.pupil-left {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: #000;
+    border-radius: 50%;
+    left: 25px;
+    top: 40px;
+}

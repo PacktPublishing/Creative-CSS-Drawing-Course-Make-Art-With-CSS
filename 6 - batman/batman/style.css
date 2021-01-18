@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(60deg,#303030,#000000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval {
+    width: 230px;
+    height: 130px;
+    background-color: #fdff00;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    width: 212px;
+    height: 112px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.o1 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 33px;
+    height: 70px;
+    border-radius: 50%;
+    top: 67px;
+    left: 44px;
+    transform: rotate(-41deg);
+}
+
+.o2 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 33px;
+    height: 70px;
+    border-radius: 50%;
+    top: 67px;
+    right: 44px;
+    transform: rotate(41deg);
+}
+
+.o3 {
+    position: absolute;
+    width: 38px;
+    height: 70px;
+    background-color: #fdff00;
+    border-radius: 50%;
+    top: 73px;
+    left: 68px;
+    transform: rotate(-15deg);
+}
+
+.o4 {
+    position: absolute;
+    width: 38px;
+    height: 70px;
+    background-color: #fdff00;
+    border-radius: 50%;
+    top: 73px;
+    right: 68px;
+    transform: rotate(15deg);
+}
+
+.o5 {
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fdff00;
+    top: 0;
+    left: 57px;
+}
+
+.sq1 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #fdff00;
+    top: 0;
+    left: 74px;
+}
+
+.o6 {
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fdff00;
+    top: 0;
+    right: 57px;
+}
+
+.sq2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #fdff00;
+    top: 0;
+    right: 74px;
+}
+
+.ears {
+    position: absolute;
+    top: 0;
+    left: 95px;
+    border-bottom: 12px solid #fdff00;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    width: 11px;
+    transform: rotate(180deg);
+}

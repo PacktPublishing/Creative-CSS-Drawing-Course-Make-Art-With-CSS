@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #2DA4A8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffe-mug {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: #3F2616;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 10px #442918,
+   0 0 0 25px #3C2415,
+   0 0 0 42px #fe9407,
+   0 0 0 65px #FEAA3A,
+   0 120px 0 -25px #3C2415,
+   100px 70px 0 -25px #3C2415,
+   80px 140px 0 -10px #3C2415,
+   0px 210px 0 -55px #3C2415,
+   20px 250px 0 -65px #3C2415;
+}
+
+.coffe-mug:before {
+  content: "";
+  position: absolute;
+  height: 75px;
+  width: 60px;
+  background-color: #E49934;
+  top: -85px;
+  right: -75px;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}

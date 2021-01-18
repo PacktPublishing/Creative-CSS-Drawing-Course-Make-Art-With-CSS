@@ -1,0 +1,50 @@
+body {
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ font-family: verdana;
+ background: #F7F7F7;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 60px;
+  background: radial-gradient(circle at 30% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%, #D6249F 60%, #285AEB 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 140px;
+  height: 140px;
+  background-color: transparent;
+  border: 12px solid white;
+  border-radius: 45px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-big {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border: 12px solid white;
+  border-radius: 50%;
+}
+
+.circle-small {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

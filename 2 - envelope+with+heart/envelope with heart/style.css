@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #eee;
+  border-right: 170px solid #ddd;
+  border-bottom: 100px solid #ccc;
+  border-left: 170px solid #ccc;
+}
+
+.heart {
+  width: 32px;
+  height: 32px;
+  background-color: #ff3838;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+}
+
+.heart:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff3838;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.heart:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff3838;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+@keyframes heartbeat {
+  0% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+  25% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+  30% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
+  50% { transform: translate(-50%, -50%) rotate(45deg) scale(1.2); }
+  70% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
+  100% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+}
